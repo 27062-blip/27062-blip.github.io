@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vote For The AI Law</title>
+    <meta
+      name="description"
+      content="A campaign-style landing page for an open AI law proposal with public voting through GitHub."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <a class="brand" href="#top">AI Law / Open Vote</a>
+          <a class="ghost-link" href="#vote">Join the vote</a>
+        </nav>
+
+        <section class="hero-grid" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">Public policy for the AI era</p>
+            <h1>Make AI law feel public, readable, and voteable.</h1>
+            <p class="lede">
+              This proposal imagines an AI law that citizens can inspect in
+              plain language, discuss openly, and support through GitHub so the
+              process feels transparent instead of distant.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#vote">Vote on GitHub</a>
+              <a class="button button-secondary" href="#law">Read the proposal</a>
+            </div>
+
+            <ul class="hero-points">
+              <li>Open drafting for every article and amendment</li>
+              <li>Public comments tied to real proposal text</li>
+              <li>GitHub voting as a visible signal of support</li>
+            </ul>
+          </div>
+
+          <aside class="hero-card">
+            <p class="card-label">Draft Law 01</p>
+            <h2>The Citizens' AI Rights Act</h2>
+            <p>
+              A model law for safety, transparency, appeal rights, and clear
+              limits on harmful automated decisions.
+            </p>
+
+            <div class="stat-stack">
+              <div>
+                <span class="stat-number">4</span>
+                <span class="stat-label">core protections</span>
+              </div>
+              <div>
+                <span class="stat-number">100%</span>
+                <span class="stat-label">publicly reviewable</span>
+              </div>
+              <div>
+                <span class="stat-number">1</span>
+                <span class="stat-label">GitHub vote link</span>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <main>
+        <section class="section manifesto" id="law">
+          <div class="section-heading">
+            <p class="eyebrow">What this law stands for</p>
+            <h2>Four promises people can actually understand</h2>
+          </div>
+
+          <div class="promise-grid">
+            <article class="promise">
+              <span>01</span>
+              <h3>Right to know</h3>
+              <p>
+                People should be told when an AI system is making or shaping an
+                important decision about them.
+              </p>
+            </article>
+            <article class="promise">
+              <span>02</span>
+              <h3>Right to challenge</h3>
+              <p>
+                Any person affected by automated scoring, filtering, or ranking
+                should be able to ask for human review.
+              </p>
+            </article>
+            <article class="promise">
+              <span>03</span>
+              <h3>Right to safety</h3>
+              <p>
+                High-impact AI systems should pass public safety checks before
+                they are deployed at scale.
+              </p>
+            </article>
+            <article class="promise">
+              <span>04</span>
+              <h3>Right to open oversight</h3>
+              <p>
+                Proposed changes, public feedback, and community support should
+                be visible in one shared civic workspace.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section process">
+          <div class="section-heading">
+            <p class="eyebrow">Why GitHub</p>
+            <h2>Because law should behave more like open source</h2>
+          </div>
+
+          <div class="timeline">
+            <article>
+              <strong>Read</strong>
+              <p>Citizens inspect the proposal article by article.</p>
+            </article>
+            <article>
+              <strong>Discuss</strong>
+              <p>Ideas, concerns, and edits live in public issues and threads.</p>
+            </article>
+            <article>
+              <strong>Vote</strong>
+              <p>Supporters star, watch, or endorse the proposal repository.</p>
+            </article>
+            <article>
+              <strong>Improve</strong>
+              <p>Lawmakers and communities refine the draft transparently.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section vote-panel" id="vote">
+          <div class="vote-copy">
+            <p class="eyebrow">Take action</p>
+            <h2>Your vote becomes visible when you participate</h2>
+            <p>
+              Put the proposal where people already collaborate. Publish the
+              draft on GitHub, invite comments, and turn support into a public
+              signal that lawmakers can’t ignore.
+            </p>
+          </div>
+
+          <form class="vote-card" id="vote-form">
+            <label for="repo-url">GitHub repository URL</label>
+            <input
+              id="repo-url"
+              name="repo-url"
+              type="url"
+              placeholder="https://github.com/your-org/ai-law-vote"
+            />
+
+            <label for="email">Stay informed</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="name@example.com"
+            />
+
+            <button class="button button-primary" type="submit">
+              Launch the vote
+            </button>
+            <p class="form-note" id="form-note">
+              Add your GitHub repository above and this CTA will open it.
+            </p>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
