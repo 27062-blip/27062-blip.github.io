@@ -50,9 +50,9 @@ body::before {
 }
 
 .page-shell {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1040px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 24px 0 64px;
+  padding: 18px 0 44px;
 }
 
 .topbar,
@@ -99,7 +99,7 @@ body::before {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 248, 238, 0.65);
@@ -131,9 +131,9 @@ body::before {
 .hero-grid {
   display: grid;
   grid-template-columns: 1.3fr 0.9fr;
-  gap: 28px;
+  gap: 22px;
   align-items: center;
-  padding: 72px 0 48px;
+  padding: 42px 0 28px;
 }
 
 .eyebrow {
@@ -185,12 +185,12 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(3.8rem, 8.8vw, 7.4rem);
+  font-size: clamp(3.1rem, 6.8vw, 5.6rem);
   max-width: 10ch;
 }
 
 h2 {
-  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-size: clamp(2rem, 4.2vw, 3.2rem);
 }
 
 .lede,
@@ -203,21 +203,21 @@ h2 {
 .form-note,
 label,
 input {
-  font-size: 1.03rem;
-  line-height: 1.65;
+  font-size: 0.98rem;
+  line-height: 1.55;
 }
 
 .lede {
-  max-width: 58ch;
+  max-width: 54ch;
   color: var(--muted);
-  margin: 20px 0 0;
+  margin: 16px 0 0;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin: 30px 0 24px;
+  gap: 12px;
+  margin: 22px 0 18px;
 }
 
 .button {
@@ -225,7 +225,7 @@ input {
   align-items: center;
   justify-content: center;
   min-height: 52px;
-  padding: 0 22px;
+  padding: 0 18px;
   border-radius: 999px;
   font-weight: 700;
   transition: transform 160ms ease, background-color 160ms ease, color 160ms ease;
@@ -250,12 +250,12 @@ input {
 .hero-trust {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  margin-top: 10px;
+  gap: 12px;
+  margin-top: 6px;
 }
 
 .hero-trust article {
-  padding: 18px 18px 16px;
+  padding: 15px 15px 14px;
   border: 1px solid var(--line);
   border-radius: 22px;
   background: rgba(255, 251, 245, 0.62);
@@ -277,7 +277,7 @@ input {
 .hero-card {
   position: relative;
   overflow: hidden;
-  padding: 30px;
+  padding: 24px;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 36px;
   background: var(--panel);
@@ -310,14 +310,14 @@ input {
 }
 
 .card-label {
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   font-size: 0.78rem;
   color: var(--accent-deep);
   font-weight: 700;
 }
 
 .hero-card-tag {
-  margin: 0 0 14px;
+  margin: 0 0 10px;
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 500;
@@ -325,7 +325,7 @@ input {
 
 .hero-card h2 {
   max-width: 10ch;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .hero-card p {
@@ -335,18 +335,18 @@ input {
 
 .stat-stack {
   display: grid;
-  gap: 16px;
-  margin-top: 28px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .stat-stack div {
-  padding-top: 14px;
+  padding-top: 10px;
   border-top: 1px solid var(--line);
 }
 
 .stat-number {
   display: block;
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   line-height: 1;
 }
 
@@ -360,15 +360,15 @@ input {
 .hero-card-footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 26px;
+  gap: 8px;
+  margin-top: 18px;
 }
 
 .hero-card-footer span {
   display: inline-flex;
   align-items: center;
   min-height: 34px;
-  padding: 0 12px;
+  padding: 0 10px;
   border-radius: 999px;
   background: rgba(17, 17, 17, 0.06);
   color: var(--ink);
@@ -377,24 +377,24 @@ input {
 }
 
 .section {
-  padding: 42px 0;
+  padding: 28px 0;
 }
 
 .section-heading {
   max-width: 52rem;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .section-intro {
-  max-width: 62ch;
+  max-width: 58ch;
   color: var(--muted);
-  margin: 14px 0 0;
+  margin: 10px 0 0;
 }
 
 .promise-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
+  gap: 14px;
 }
 
 .promise,
@@ -410,20 +410,20 @@ input {
 }
 
 .promise {
-  padding: 24px;
-  border-radius: 24px;
+  padding: 18px;
+  border-radius: 20px;
 }
 
 .promise span {
   display: inline-block;
-  margin-bottom: 26px;
+  margin-bottom: 14px;
   color: var(--accent-deep);
   font-weight: 700;
 }
 
 .promise h3 {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
+  font-size: 1.12rem;
+  margin-bottom: 8px;
 }
 
 .promise p,
@@ -442,7 +442,7 @@ label {
 .benefit-grid,
 .criticism-grid {
   display: grid;
-  gap: 18px;
+  gap: 14px;
 }
 
 .issue-grid {
@@ -460,22 +460,22 @@ label {
 .issue-card,
 .benefit-card,
 .criticism-card {
-  padding: 24px;
-  border-radius: 24px;
+  padding: 18px;
+  border-radius: 20px;
 }
 
 .rules-list {
   display: grid;
-  gap: 14px;
+  gap: 10px;
 }
 
 .rule-item {
   display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 16px;
+  grid-template-columns: 105px 1fr;
+  gap: 14px;
   align-items: start;
-  padding: 20px 22px;
-  border-radius: 22px;
+  padding: 16px 18px;
+  border-radius: 18px;
 }
 
 .rule-item span {
@@ -490,8 +490,8 @@ label {
 .issue-card h3,
 .benefit-card h3,
 .criticism-card h3 {
-  margin-bottom: 10px;
-  font-size: 1.25rem;
+  margin-bottom: 8px;
+  font-size: 1.08rem;
 }
 
 .process {
@@ -501,12 +501,12 @@ label {
 .timeline {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 12px;
 }
 
 .timeline article {
-  padding: 22px;
-  border-radius: 24px;
+  padding: 18px;
+  border-radius: 20px;
   transform: rotate(calc(var(--rotation, 0) * 1deg));
 }
 
@@ -528,36 +528,36 @@ label {
 
 .timeline strong {
   display: block;
-  margin-bottom: 10px;
-  font-size: 1.15rem;
+  margin-bottom: 8px;
+  font-size: 1.02rem;
 }
 
 .vote-panel {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
-  gap: 22px;
+  gap: 18px;
   align-items: start;
 }
 
 .vote-card {
   display: grid;
-  gap: 12px;
-  padding: 24px;
-  border-radius: 28px;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 22px;
 }
 
 .support-box {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 14px;
+  padding: 16px;
   border: 1px solid var(--line);
-  border-radius: 22px;
+  border-radius: 18px;
   background: rgba(255, 249, 241, 0.72);
   box-shadow: var(--shadow);
 }
 
 .support-box h3 {
-  margin-bottom: 10px;
-  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
 }
 
 .support-box p {
@@ -571,8 +571,8 @@ label {
 
 input {
   width: 100%;
-  padding: 14px 16px;
-  border-radius: 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
   border: 1px solid rgba(17, 17, 17, 0.12);
   background: rgba(255, 255, 255, 0.72);
   color: var(--ink);
@@ -615,7 +615,7 @@ input:focus {
 
 @media (max-width: 640px) {
   .page-shell {
-    width: min(100% - 20px, 1180px);
+    width: min(100% - 18px, 1040px);
   }
 
   .topbar {
@@ -625,18 +625,18 @@ input:focus {
   }
 
   .hero-grid {
-    padding: 42px 0 24px;
+    padding: 28px 0 18px;
   }
 
   h1 {
-    font-size: clamp(3rem, 18vw, 4.8rem);
+    font-size: clamp(2.6rem, 14vw, 4rem);
   }
 
   h2 {
-    font-size: clamp(2rem, 12vw, 3rem);
+    font-size: clamp(1.75rem, 10vw, 2.5rem);
   }
 
   .hero-card {
-    padding: 24px;
+    padding: 18px;
   }
 }
