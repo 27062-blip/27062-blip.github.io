@@ -170,6 +170,7 @@ h2 {
 
 .lede,
 .hero-points,
+.section-intro,
 .promise p,
 .timeline p,
 .vote-copy p,
@@ -308,6 +309,12 @@ input {
   margin-bottom: 28px;
 }
 
+.section-intro {
+  max-width: 62ch;
+  color: var(--muted);
+  margin: 14px 0 0;
+}
+
 .promise-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -315,6 +322,10 @@ input {
 }
 
 .promise,
+.issue-card,
+.rule-item,
+.benefit-card,
+.criticism-card,
 .timeline article,
 .vote-card {
   border: 1px solid var(--line);
@@ -340,11 +351,71 @@ input {
 }
 
 .promise p,
+.issue-card p,
+.rule-item p,
+.benefit-card p,
+.criticism-card p,
 .timeline p,
 .vote-copy p,
 .form-note,
 label {
   color: var(--muted);
+}
+
+.issue-grid,
+.benefit-grid,
+.criticism-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.issue-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.benefit-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.criticism-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.issue-card,
+.benefit-card,
+.criticism-card {
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.rules-list {
+  display: grid;
+  gap: 14px;
+}
+
+.rule-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 20px 22px;
+  border-radius: 22px;
+}
+
+.rule-item span {
+  color: var(--accent-deep);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  padding-top: 4px;
+}
+
+.issue-card h3,
+.benefit-card h3,
+.criticism-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
 }
 
 .process {
@@ -399,6 +470,25 @@ label {
   border-radius: 28px;
 }
 
+.support-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 249, 241, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.support-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.support-box p {
+  margin: 0;
+  color: var(--muted);
+}
+
 label {
   font-weight: 500;
 }
@@ -425,9 +515,17 @@ input:focus {
 @media (max-width: 960px) {
   .hero-grid,
   .promise-grid,
+  .issue-grid,
+  .benefit-grid,
+  .criticism-grid,
   .timeline,
   .vote-panel {
     grid-template-columns: 1fr;
+  }
+
+  .rule-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   h1 {
