@@ -101,7 +101,7 @@ body::before {
   gap: 16px;
   padding: 14px 18px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.88);
   box-shadow: var(--shadow);
 }
@@ -152,7 +152,7 @@ body::before {
   margin: 0 0 18px;
   padding: 8px 14px;
   border: 1px solid rgba(29, 36, 48, 0.08);
-  border-radius: 999px;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.92);
   color: var(--ink);
   font-size: 0.88rem;
@@ -226,7 +226,7 @@ input {
   justify-content: center;
   min-height: 52px;
   padding: 0 18px;
-  border-radius: 999px;
+  border-radius: 10px;
   font-weight: 700;
   transition: transform 160ms ease, background-color 160ms ease, color 160ms ease;
 }
@@ -257,7 +257,7 @@ input {
 .hero-trust article {
   padding: 15px 15px 14px;
   border: 1px solid var(--line);
-  border-radius: 22px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: var(--shadow);
 }
@@ -279,7 +279,7 @@ input {
   overflow: hidden;
   padding: 24px;
   border: 1px solid rgba(29, 36, 48, 0.08);
-  border-radius: 36px;
+  border-radius: 18px;
   background: var(--panel);
   box-shadow: var(--shadow);
 }
@@ -299,7 +299,7 @@ input {
   position: absolute;
   inset: 14px;
   border: 1px solid rgba(29, 36, 48, 0.06);
-  border-radius: 28px;
+  border-radius: 12px;
   pointer-events: none;
 }
 
@@ -369,7 +369,7 @@ input {
   align-items: center;
   min-height: 34px;
   padding: 0 10px;
-  border-radius: 999px;
+  border-radius: 8px;
   background: rgba(15, 95, 120, 0.08);
   color: var(--ink);
   font-size: 0.82rem;
@@ -411,7 +411,7 @@ input {
 
 .promise {
   padding: 18px;
-  border-radius: 20px;
+  border-radius: 14px;
 }
 
 .promise span {
@@ -454,7 +454,7 @@ label {
 .required-card {
   padding: 18px;
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 14px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: var(--shadow);
 }
@@ -485,7 +485,7 @@ label {
 .benefit-card,
 .criticism-card {
   padding: 18px;
-  border-radius: 20px;
+  border-radius: 14px;
 }
 
 .rules-list {
@@ -496,7 +496,7 @@ label {
 .moral-panel {
   padding: 22px;
   border: 1px solid var(--line);
-  border-radius: 24px;
+  border-radius: 14px;
   background:
     radial-gradient(circle at top right, rgba(28, 140, 125, 0.14), transparent 30%),
     rgba(255, 255, 255, 0.96);
@@ -526,7 +526,7 @@ label {
   gap: 14px;
   align-items: start;
   padding: 16px 18px;
-  border-radius: 18px;
+  border-radius: 12px;
 }
 
 .rule-item span {
@@ -557,7 +557,7 @@ label {
 
 .timeline article {
   padding: 18px;
-  border-radius: 20px;
+  border-radius: 14px;
   transform: rotate(calc(var(--rotation, 0) * 1deg));
 }
 
@@ -594,14 +594,14 @@ label {
   display: grid;
   gap: 10px;
   padding: 18px;
-  border-radius: 22px;
+  border-radius: 14px;
 }
 
 .support-box {
   margin-top: 14px;
   padding: 16px;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 12px;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: var(--shadow);
 }
@@ -623,7 +623,7 @@ label {
 input {
   width: 100%;
   padding: 12px 14px;
-  border-radius: 14px;
+  border-radius: 10px;
   border: 1px solid rgba(29, 36, 48, 0.12);
   background: rgba(255, 255, 255, 0.98);
   color: var(--ink);
@@ -671,7 +671,7 @@ input:focus {
   }
 
   .topbar {
-    border-radius: 28px;
+    border-radius: 12px;
     flex-direction: column;
     align-items: flex-start;
   }
