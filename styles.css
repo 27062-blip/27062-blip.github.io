@@ -520,6 +520,39 @@ label {
   line-height: 1.65;
 }
 
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.review-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.review-stars {
+  margin: 0 0 10px;
+  letter-spacing: 0.08em;
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+.review-quote {
+  margin: 0;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.review-author {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .rule-item {
   display: grid;
   grid-template-columns: 105px 1fr;
@@ -646,6 +679,7 @@ input:focus {
   .issue-grid,
   .benefit-grid,
   .criticism-grid,
+  .reviews-grid,
   .timeline,
   .vote-panel {
     grid-template-columns: 1fr;
