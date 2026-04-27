@@ -445,6 +445,30 @@ label {
   gap: 14px;
 }
 
+.required-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.required-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.required-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.required-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .issue-grid {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -618,6 +642,7 @@ input:focus {
 @media (max-width: 960px) {
   .hero-grid,
   .promise-grid,
+  .required-grid,
   .issue-grid,
   .benefit-grid,
   .criticism-grid,
